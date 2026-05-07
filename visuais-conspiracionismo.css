@@ -1,0 +1,189 @@
+
+@font-face {
+        font-family: Data70;
+        src: url(Data70.ttf);
+        }
+
+        @font-face {
+        font-family: X-files;
+        src: url(x-files.ttf);
+        }
+
+        @font-face {
+        font-family: ds-digi;
+        src: url(DS-DIGI.TTF);
+        }
+
+        @font-face {
+        font-family: Typewriter;
+        src: url(JMH\ Typewriter.ttf);
+        }
+
+        @font-face {
+        font-family: confidential-regular;
+        src: url(Confidential\ Regular.otf);
+        }
+
+        body {
+            background-image: url(estrelas.gif);
+        }
+
+        .caixa-geral {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .caixa-corpo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            width: 630px;
+        }
+
+        .header-consp {
+            font-family: confidential-regular;
+            font-size: 80px;
+
+            margin-top: 30px;
+            margin-bottom: 20px;
+
+            color: white;
+        }
+
+        .alien-gif {
+            height: 150px;
+            width: 176px;
+
+            border-style: double;
+            border-color:rgb(165, 165, 165);
+        }
+
+        .container-infos {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            margin-bottom: 30px;
+            width: 630px;
+        }
+
+        .caixa-intro {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 150px;
+            width: 430px;
+
+            background-color: black;
+
+            border-style: double;
+            border-color: lightgray;    
+        }
+
+        .texto-intro {
+            color: white;
+            font-family: Typewriter;
+            text-align: justify;
+            font-size: 13px;
+            margin: 15px;
+        }
+
+        .imagem-linha {
+            width: 630px;
+
+            margin-bottom: 30px;
+        }
+
+        .container-equidistante {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            width: 630px;
+
+            margin-bottom: 30px;
+        }
+
+        .poster-filmes {
+            width: 202px;
+        }
+
+        .imagem-hopkin {
+            width: 422px;
+        }
+
+        .imagem-flatwoods {
+            width: 188px;
+        }
+
+        .container-equidistante-cryptids {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            width: 630px;
+
+            margin-bottom: 20px;
+        }
+
+        .imagem-cryptid {
+            width: 305px;
+        }
+
+        .container-retorno {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            margin-bottom: 50px;
+        }
+
+        .container-interno {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container-gif {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 80px;
+            width: 180px;
+
+            background-color: black;
+
+            border-style: double;
+            border-color: lightgray; 
+        }
+
+        .container-botão {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin-top: 13px;
+
+            height: 45px;
+            width: 180px;
+
+            background-color: black;
+
+            border-style: double;
+            border-color: lightgray; 
+        }
+        .header-botão {
+            font-size: 22px;
+            font-family: ds-digi;
+
+            cursor: pointer;
+
+            color: rgb(0, 255, 0);
+
+            margin: 0px;
+        }

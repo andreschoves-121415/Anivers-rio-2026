@@ -1,0 +1,215 @@
+
+        @font-face {
+        font-family: Data70;
+        src: url(Data70.ttf);
+        }
+
+        @font-face {
+        font-family: X-files;
+        src: url(x-files.ttf);
+        }
+
+        @font-face {
+        font-family: ds-digi;
+        src: url(DS-DIGI.TTF);
+        }
+
+        @font-face {
+        font-family: Typewriter;
+        src: url(JMH\ Typewriter.ttf);
+        }
+
+        @font-face {
+        font-family: confidential-regular;
+        src: url(Confidential\ Regular.otf);
+        }
+
+        body {
+            background-image: url(estrelas.gif);
+        }
+
+        .caixa-geral {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .caixa-corpo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            width: 630px;
+        }
+
+        .header-retro {
+            font-family: Data70;
+            font-size: 80px;
+
+            margin-top: 30px;
+            margin-bottom: 20px;
+
+            color: white;
+        }
+
+        .enterprise-gif {
+            height: 150px;
+
+            border-style: double;
+            border-color:rgb(165, 165, 165);
+        }
+
+        .container-infos {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            margin-bottom: 30px;
+            width: 630px;
+        }
+
+        .caixa-intro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            height: 150px;
+            width: 456px;
+
+            background-color: black;
+
+            border-style: double;
+            border-color: lightgray;    
+        }
+
+        .texto-intro {
+            color: white;
+            font-family: Typewriter;
+            text-align: justify;
+            font-size: 13px;
+
+            margin: 12px;
+        }
+
+        .imagem-linha {
+            width: 630px;
+
+            margin-bottom: 30px;
+        }
+
+        .container-equidistante {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            width: 630px;
+
+            margin-bottom: 30px;
+        }
+
+        .container-equidistante-albums {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            width: 630px;
+
+            margin-bottom: 20px;
+        }
+
+        .poster-bernal {
+            width: 300px;
+        }
+
+        .container-st {
+            display: flex;
+            flex-direction: row;
+
+            width: 630px;
+
+            margin-bottom: 30px;
+        }
+
+        .st-ponte {
+            height:250px;
+            margin-right: 20px;
+        }
+
+        .poster-st {
+            height: 250px;
+        }
+
+        .revista {
+            width: 305px;
+        }
+
+        .poster-filmes {
+            width: 202px;
+        }
+
+        .quadros-mídia {
+            width: 305px;
+        }
+
+        .parliament-1 {
+            width: 261px;
+        }
+
+        .parliament-2 {
+            height: 349px;
+        }
+
+        .container-retorno {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            margin-bottom: 50px;
+        }
+
+        .container-interno {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .container-gif {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 80px;
+            width: 180px;
+
+            background-color: black;
+
+            border-style: double;
+            border-color: lightgray; 
+        }
+
+        .container-botão {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin-top: 13px;
+
+            height: 45px;
+            width: 180px;
+
+            background-color: black;
+
+            border-style: double;
+            border-color: lightgray; 
+        }
+        .header-botão {
+            font-size: 22px;
+            font-family: ds-digi;
+
+            cursor: pointer;
+
+            color: rgb(0, 255, 0);
+
+            margin: 0px;
+        }

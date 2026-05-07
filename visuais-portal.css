@@ -1,0 +1,265 @@
+
+        @font-face {
+        font-family: Data70;
+        src: url(Data70.ttf);
+        }
+
+        @font-face {
+        font-family: X-files;
+        src: url(x-files.ttf);
+        }
+
+        @font-face {
+        font-family: ds-digi;
+        src: url(DS-DIGI.TTF);
+        }
+
+        @font-face {
+        font-family: Typewriter;
+        src: url(JMH\ Typewriter.ttf);
+        }
+
+        @font-face {
+        font-family: confidential-regular;
+        src: url(Confidential\ Regular.otf);
+        }
+
+        body {
+            background-image: url(estrelas.gif);
+        }
+
+        .caixa-geral {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .caixa-corpo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            width: 630px;
+        }
+
+        .caixa-header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+
+            height: 130px;
+            width: 630px;
+
+            margin-top: 30px;
+        }
+
+        .header-principal {
+            font-family: x-files;
+            font-size: 67px;
+            margin: 0;
+        }
+
+        .container-infos {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            margin-top: 30px;
+            width: 630px;
+        }
+
+        .container-terra {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 180px;
+            width: 180px;
+
+            background-color: black;
+
+            border-style: double;
+            border-color: lightgray;    
+        }
+
+        .caixa-ano {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            margin-top: 13px;
+
+            height: 45px;
+            width: 180px;
+
+            background-color: black;
+
+            border-style: double;
+            border-color: lightgray; 
+        }
+        .header-ano {
+            font-size: 30px;
+            font-family: ds-digi;
+
+            color: rgb(0, 255, 0);
+
+            margin: 0px;
+        }
+
+        .caixa-intro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            background-color: black;
+
+            overflow: scroll;
+            overflow-x: scroll;
+            overflow-x: hidden;
+
+            height: 244px;
+            width: 412px;
+
+            border-style: double;
+            border-color: lightgray;    
+        }
+
+        .texto-intro-1 {
+            font-family: Typewriter;
+            text-align: justify;
+            font-size: 15px;
+
+            margin-top: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: 0px;
+        }
+
+        .texto-intro-2 {
+            font-family: Typewriter;
+            text-align: justify;
+            font-size: 15px;
+
+            margin-top: 15px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: 15px;
+        }
+
+        .caixa-vibes {
+            width: 630px;
+        }
+
+        .caixa-header-vibes {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 130px;
+            width: 630px;
+        }
+        .header-vibes {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 63px;
+            color: black;
+            text-shadow: 2px 3px 2px rgb(255, 255, 255);
+            margin: 0;
+        }
+
+        .caixa-icones {
+            display: flex;
+            flex-direction: row;
+
+            width: 630px;
+        }
+
+        .caixa-retro {
+            display: flex;
+            flex-direction: column;
+
+            background-image: url(brilloazul1.gif);
+
+            width: 296px;
+
+            border-style: double;
+            border-color: lightgray;
+
+            margin-right: 26px;
+        }
+
+        .caixa-consp {
+            display: flex;
+            flex-direction: column;
+
+            background-image: url(L4.gif);
+
+            width: 296px;
+
+            border-style: double;
+            border-color: lightgray;           
+        }
+
+        .container-icone {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 406px;
+
+            border-bottom: double;
+            border-color: lightgray;
+        }
+
+        .icone-vibe {
+            height: 360px;
+
+            cursor: pointer;
+
+            border-style: double;
+            border-color: lightgray;
+        }
+
+        .caixa-header-icone {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            height: 60px;
+
+            background-color: black;
+        }
+        .header-retro {
+            font-family: Data70;
+            font-size: 32px;
+
+            cursor: pointer;
+
+            margin: 0;
+        }
+        .header-consp {
+            font-family: confidential-regular;
+            font-size: 34px;
+
+            cursor: pointer;
+
+            margin: 0;
+        }
+
+        .caixa-buttons {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+
+            width: 630px;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+
+        p {
+            color: whitesmoke;
+        }
